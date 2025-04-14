@@ -7,13 +7,13 @@
     margin: 5px;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid rgb(234, 3, 3); 
+    /* border: 1px solid rgb(234, 3, 3);  */
 }
 
 /* ******************* LIMITACIONES TAMAÑO PARA RESPONSIVO ******************** */
 #body {
     background-color: rgb(225, 225, 223);
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -24,7 +24,8 @@
 
 #main {
     max-width: 1440px;
-    min-height: 100vh;
+    /* min-height: 100vh; */ /* Esto es lo del footer que sube y baja adaptándose al contenido, pero no me sale... */
+
     margin: 0 auto;
     /*background-color: hotpink;*/
 }
@@ -105,7 +106,7 @@ h2 {
 }
 
 .caja-mariaceli img {
-    width: 200%;
+    width: 1920px;
     filter: grayscale(100%);
 }
 
@@ -118,9 +119,18 @@ h2 {
 .caja-fotografia-unica {
     display: flex;
     justify-content: center;
-    background-color: rgb(225, 225, 223);
+    /*background-color: rgb(233, 233, 230);*/
 
 }
+
+.caja-fotografia img {
+    width: 300%;
+    filter: grayscale(100%);
+    /*background-color: rgb(233, 233, 230);*/
+
+}
+
+
 
 
 /* ■■■■■■■■■■■■■■■■■■■■■■■■ PÁGINA 3 - EL CINE ■■■■■■■■■■■■■■■■■■■■■■■■ */
