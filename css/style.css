@@ -1,0 +1,266 @@
+
+/* █████████ ESTILOS GENERALES █████████ */
+
+
+/* ******************* PRESETS ******************** */
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    /*border: 1px solid rgb(234, 3, 3);*/ 
+}
+
+/* ******************* LIMITACIONES TAMAÑO PARA RESPONSIVO ******************** */
+#body {
+    background-color: rgb(225, 225, 223);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#header{
+    width: 100%;
+    height: 10px;
+}
+
+#main {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    /*background-color: hotpink;*/
+}
+
+#footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    /*background-color: hotpink;*/
+}
+
+/* ******************** HEADERS ******************** */
+
+#navbar {
+    width: 100%;
+    height: 100%;
+    /* text-decoration: none; */
+}
+
+ul {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    justify-content: end;
+    /* text-decoration: none; */
+    /* Acá tengo que lograr poner una pseudoclase para poder usar el a:hover */
+    /* Dejo la fuente preparada para cuando aprenda a hacerlo, porque lo que quiero son dos cosas: 1) aplicarla a función "hotlink" (que cuando paso el mouse por arriba de la palabra cambie la tipografía, aunque esto es medio grasa...), y 2) que cuando elijo la página solo el nombre de la página en la que estoy quede con esa tipografía distintiva... font-family: "Alex Brush", cursive;*/
+}
+
+/* ******************** TÍTULOS DE LAS PÁGINAS ******************** */
+h1 {
+    color: rgb(137, 140, 137);
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* ******************** FOOTERS ******************** */
+.caja-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+.caja-footer-letra-chica {
+    display: flex;
+    width: 850px;
+    height: 50px;
+    background-color: rgb(225, 225, 223);
+}
+
+.caja-footer-redes-sociales {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    background-color: rgb(225, 225, 223);
+    align-items: center;
+}
+
+
+/* ████████████████████████████████████ POR PÁGINAS ████████████████████████████████████ */
+
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■ PÁGINA 1 - MARÍA CELI ■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ******************** IMAGEN MÍA CON LA CÁMARA ******************** */
+.caja-mariaceli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 230);
+    width: ;
+}
+
+.caja-mariaceli img {
+    width: 200%;
+    filter: grayscale(100%);
+}
+
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■ PÁGINA 2 - LA FOTOGRAFÍA ■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ******************** TAMAÑO DEL LA IMAGEN ******************** */
+.caja-fotografia-unica {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(225, 225, 223);
+    width: ;
+}
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■ PÁGINA 3 - EL CINE ■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ******************** TAMAÑO DEL VIDEO ******************** */
+.caja-cine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(233, 233, 230);*/
+    width: ;
+}
+
+.caja-cine iframe {
+    width: 100%;
+}
+
+
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■ PÁGINA 4 - INSPIRACIÓN ■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ******************** TAMAÑO TIPOGRAFÍA ******************** */
+section {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ******************** FOTOGRAFÍA IMÁGENES ******************** */
+.caja-fotografia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 233, 230);
+    width: ;
+}
+
+.caja-fotografia img {
+    width: 90%;
+}
+
+
+/* ******************** TAMAÑO Y ALINEACIÓN DE IMÁGENES ******************** */
+
+/* 11111111111111111111111111111111111111111111111111 */
+.caja-inspiraciongral1 {
+    display: flex;
+    justify-content: right;
+}
+
+.caja-inspiracionimg1 {
+    display: flex;
+    justify-content: left;
+    align-items:first baseline;
+    /*background-color: rgb(58, 226, 43);*/
+    width: ;
+}
+
+.caja-inspiracionimg1 img {
+    width: 500px;
+    
+}
+
+.caja-inspiraciontxt1 {
+    display: flex;
+    margin-left: px;
+    margin-right: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 3;
+}
+/* 22222222222222222222222222222222222222222222222222 */
+.caja-inspiraciongral2 {
+    display: flex;
+    justify-content: right;
+}
+
+.caja-inspiracionimg2 {
+    display: flex;
+    justify-content: left;
+    align-items: first baseline;
+    /*background-color: rgb(226, 220, 43);*/
+    width: ;
+}
+
+.caja-inspiracionimg2 img {
+    width: 500px;
+}
+
+.caja-inspiraciontxt2 {
+    display: flex;
+    margin-left: px;
+    margin-right: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 3;
+
+}
+/* 33333333333333333333333333333333333333333333333333 */
+.caja-inspiraciongral3 {
+    display: flex;
+    justify-content: right;
+}
+
+.caja-inspiracionimg3 {
+    display: flex;
+    justify-content: left;
+    align-items: first baseline;
+    /*background-color: blueviolet;*/
+    width: ;
+    
+}
+
+.caja-inspiracionimg3 img {
+    width: 500px;
+}
+
+.caja-inspiraciontxt3 {
+    display: flex;
+    margin-left: px;
+    margin-right: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 3;
+}
+/* 00000000000000000000000000000000000000000000000000 */
+
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■ PÁGINA 5 - CONTACTO ■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ******************** ESTILOS CAJA GENERAL DE CONTACTO ******************** */
+.caja-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(178, 180, 180);
+    width: ;
+}
