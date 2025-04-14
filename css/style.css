@@ -106,7 +106,7 @@ h2 {
 }
 
 .caja-mariaceli img {
-    width: 1920px;
+    width: 100%;
     filter: grayscale(100%);
 }
 
@@ -123,8 +123,8 @@ h2 {
 
 }
 
-.caja-fotografia img {
-    width: 300%;
+.caja-fotografia-unica img {
+    width: 100%;
     filter: grayscale(100%);
     /*background-color: rgb(233, 233, 230);*/
 
@@ -269,4 +269,5 @@ section {
     justify-content: center;
     align-items: center;
     background-color: rgb(178, 180, 180);
+    
 }
