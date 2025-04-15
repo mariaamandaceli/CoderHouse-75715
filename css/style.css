@@ -7,10 +7,10 @@
     margin: 5px;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid rgb(234, 3, 3); 
+    /* border: 1px solid rgb(234, 3, 3);  */
 }
 
-/* ******************* LIMITACIONES TAMAÑO PARA RESPONSIVO ******************** */
+/* ******************* LIMITACIONES TAMAÑO Y ESTILOS PARA RESPONSIVO ******************** */
 #body {
     background-color: rgb(225, 225, 223);
     max-width: 1920px;
@@ -21,6 +21,13 @@
     height: 60px;
 }
 
+.navbar-expand-lg {
+    text-align: right;
+    object-position: top;
+    text-size-adjust: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
 }
 
@@ -28,6 +35,13 @@
     text-align: right;
 }
 
+.a-navbar-toggler {
+    
+}
+
+.a-nav-link {
+    font-style: normal;
+}
 
 #main {
     max-width: 1440px;
@@ -116,6 +130,10 @@ h2 {
 .caja-mariaceli img {
     width: 100%;
     filter: grayscale(100%);
+    background-image:image();
+    background-size: cover;
+    /* background-image: image(.caja-fotografia-unica); */
+    /* position:relative; */
 }
 
 
